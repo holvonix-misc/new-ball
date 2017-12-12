@@ -19,7 +19,7 @@ git config --add commit.gpgsign true
 
 rm -f yarn.lock
 
-sed -i -- "s/new-ball/$NEW_PROJECT_NAME/g" $(find . -maxdepth 1 -type f)
+sed -i -- "s/new-ball/$NEW_PROJECT_NAME/g" `find . -maxdepth 1 -type f`
 sed -i -- "s/new-ball/$NEW_PROJECT_NAME/g" $(find scripts/* -maxdepth 1 -type f)
 sed -i -- "s/new-ball/$NEW_PROJECT_NAME/g" $(find src/* -maxdepth 1 -type f)
 sed -i -- "s/new-ball/$NEW_PROJECT_NAME/g" setup/SETUP.md
