@@ -20,7 +20,7 @@
     "tidy-ci": "yarn contrib"
   },
   "engines": {
-    "node": ">=4.0.0",
+    "node": ">=6.0.0",
     "yarn": "^1.3.2"
   },
   "keywords": ["KEYWORDS"],
